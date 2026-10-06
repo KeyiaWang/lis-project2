@@ -37,12 +37,14 @@ img {
     height: auto;
 }
 
+/* The thin light gray line at the bottom of the page serves as a separator between the footer and the rest of the content. There is also a bit of extra space above the footer line. The text in the footer is displayed in a smaller font size than the rest of the content, since the copyright information is less important than the content above it. The page now looks more organized. KW */
 footer {
     border-top: 1px solid #cccccc;
     margin-top: 2rem;
     padding-top: 0.5rem;
     font-size: 0.9rem;
 }
+/* In hovering over a link, the background of the text changes to a light yellow color, and the text itself turns black. This highlights the link further so it’s more noticeable and clearly indicates that it can be clicked. It also serves a purpose by enabling users to know where on the page they are clicking. KW */
 a:hover { background: #fdf0c8; color: #000000; }
    nav a:hover { border-bottom: 3px solid #e0a82e; }
    nav a[aria-current="page"] { border-bottom: 3px solid #e0a82e; }
@@ -50,5 +52,6 @@ a:hover { background: #fdf0c8; color: #000000; }
    img:hover { transform: scale(1.03); }
    iframe { max-width: 100%; }
 
-   .skip-link { position: absolute; left: 0.5rem; top: -3rem; background: #1b4f72; color: #ffffff; padding: 0.5rem 1rem; }
+  /* The skip link is hidden off-screen and appears when someone presses Tab, so keyboard users can skip the navigation and go directly to the main content. KW */
+.skip-link { position: absolute; left: 0.5rem; top: -3rem; background: #1b4f72; color: #ffffff; padding: 0.5rem 1rem; }
    .skip-link:focus { top: 0.5rem; }
