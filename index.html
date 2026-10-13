@@ -6,6 +6,8 @@
     <title>Project 2</title>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylepage.css">
+
+    <!-- I changed the layout of this page so the team members show up as cards instead of a basic list. KW -->
 </head>
 
 <body>
@@ -16,18 +18,38 @@
         <a href="resources.html">Implicit Bias Guide</a>
         <a href="tech-heroes.html">Tech Heroes</a>
     </nav>
+
 <!--The jump link didn’t work before because there was no element with the ID main. I added the ID, so now keyboard users can jump directly to the main content KW -->
     <main id="main">
-        <h1>Project 2</h1>
+        <header class="home-hero">
+            <h1>Project 2</h1>
+            <p class="welcome-text">Welcome to our Project 2 website.</p>
+        </header>
 
-        <p>Welcome to our Project 2 website.</p>
+        <section class="home-team-section" aria-labelledby="home-team-heading">
+            <h2 id="home-team-heading">Team Members</h2>
 
-        <h2>Team Members</h2>
+            <!-- I wrapped the cards in links so users can click on our names to jump straight to the about page. KW -->
+            <div class="team-grid">
+                <a href="about.html" class="card-link">
+                    <article class="profile-card home-member-card">
+                        <div class="profile-header">
+                            <div class="avatar avatar-kw" aria-hidden="true">KW</div>
+                            <h3>Keyia Wang</h3>
+                        </div>
+                    </article>
+                </a>
 
-        <ul>
-            <li>Keyia Wang</li>
-            <li>Dean Hall</li>
-        </ul>
+                <a href="about.html" class="card-link">
+                    <article class="profile-card home-member-card">
+                        <div class="profile-header">
+                            <div class="avatar avatar-dh" aria-hidden="true">DH</div>
+                            <h3>Dean Hall</h3>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </section>
     </main>
 
     <footer>
