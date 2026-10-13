@@ -93,7 +93,7 @@ a:hover { background: #fdf0c8; color: #000000; }
     font-size: 1.3rem;
 }
 
-/* Initials badges for our profile headers */
+/* Initials badges for our profile headers DH */
 .avatar {
     width: 44px;
     height: 44px;
@@ -338,7 +338,7 @@ a:hover { background: #fdf0c8; color: #000000; }
     color: #ffffff;
 }
 
-/* Adds three previews on the home page. */
+/* Adds three previews on the home page. DH */
 .explore-grid {
     display: grid;
     gap: 1rem;
@@ -363,7 +363,7 @@ a:hover { background: #fdf0c8; color: #000000; }
     color: inherit;
 }
 
-/* Changes the tech hero photo, to allow the photo to be beside text. */
+/* Changes the tech hero photo, to allow the photo to be beside text. DH */
 .featured-hero {
     display: flex;
     flex-wrap: nowrap;
@@ -382,7 +382,7 @@ a:hover { background: #fdf0c8; color: #000000; }
     margin: 0;
 }
 
-/* Key terms list at the top of the resource guide */
+/* Key terms put at top of resource guide DH */
 .key-terms dt {
     font-weight: 700;
     color: #1b4f72;
@@ -392,7 +392,7 @@ a:hover { background: #fdf0c8; color: #000000; }
     margin: 0 0 0.75rem 0;
 }
 
-/* New styles for profiles on the About Us page. */
+/* New styles for profiles on the About Us page. DH */
 .member-role {
     margin: 0;
     font-size: 0.9rem;
